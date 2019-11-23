@@ -10,7 +10,7 @@
 | 8 | |`movs    r0, r3`| Copy r3 to r0 |
 | 9 | |` add     sp, sp, #8`| Add the value of 8 to stack pointer |
 | 10 | |` bx      lr`| branch the exchange|
-| 11 | |`main:`| |
+| 11 |`main:`| | |
 | 12 | |` push    {r4, lr}`|Push registers r4 and `lr` onto the stack.|
 | 13 | |`ldr     r3, .L6`|Load the address that is generated in r3 to the label `.L6`|
 | 14 | |`ldr     r3, [r3]`|Load the value at [r3] into r3.|
